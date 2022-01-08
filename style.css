@@ -17,6 +17,31 @@ body{
     font-size: large;
 }
 
+.list-group{
+    width: 14rem;
+}
+
+.card .list-group a{
+    font-size: larger;
+    font-weight: bolder;
+    padding: 40px 0px;
+    text-align: center;
+    margin: 30px;
+}
+.card-heading{
+    color: #021B7B;
+    text-align: left;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 720px) {
     .navbar-nav{
         padding-left: 20px !important;
@@ -24,5 +49,8 @@ body{
     }
     .navbar-brand{
         padding-left: 30px !important;
+    }
+    .header-img{
+        width: 300px;
     }
 }
