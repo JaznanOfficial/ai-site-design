@@ -18,15 +18,18 @@ body{
 }
 
 .list-group{
-    width: 14rem;
+    width: 16.5rem;
 }
+
 
 .card .list-group a{
     font-size: larger;
     font-weight: bolder;
-    padding: 40px 0px;
+    padding: 10px 0px;
     text-align: center;
-    margin: 30px;
+    margin: 10px;
+    border: 1px solid gray;
+    color: #011B7C;
 }
 .card-heading{
     color: #021B7B;
@@ -34,7 +37,10 @@ body{
     margin: 0 10px;
 }
 
-
+.card .list-group a:hover{
+    background-image: linear-gradient(to right, #011B7C, #191450 );
+    color: white;
+}
 
 
 
